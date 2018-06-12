@@ -18,12 +18,14 @@ echo
 git config --global credential.helper cache
 
 echo "Quais arquivos quer adicionar ao git? "
-read "Arquivos que deseja enviar (use " . " para adicionar todos) " arquivos
+echo -n "Arquivos que deseja enviar (use " . " para adicionar todos) " 
+read arquivos
 git add "$arquivos"
 
 echo 
 echo "Qual mensagem que você quer adicionar ao seu commit? "
-read "Sua mensagem: " mensagem
+echo -n "Sua mensagem: " 
+read mensagem
 git commit -m "$mensagem"
 
 echo 
