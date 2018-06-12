@@ -10,7 +10,7 @@ echo " █████╗ ██╗   ██╗████████╗ █�
 echo -e "\n\n\n"
 
 # This code part will get your credentials and store them.
-git config --global credential.helper cache
+git config --global credential.helper store
 
 # This will set to send all the pushs to the current branch.
 git config --global push.default current
