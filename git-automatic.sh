@@ -12,8 +12,6 @@ echo "
 echo 
 echo 
 echo 
-echo 
-echo 
 
 git config --global credential.helper cache
 
