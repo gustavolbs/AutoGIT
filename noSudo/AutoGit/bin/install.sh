@@ -13,17 +13,18 @@ esac
 
 read -r -p "${1:-- Do you want to install AutoGIT? [Yes/No]} " response
 case "$response" in [yY][eE][sS]|[yY])
+cd 
+cd ./local
+mkdir bin etc 
+cd etc
+mkdir bin
+cd
 	echo "- Now, let's configure the execution file..." 
 	{
 		pwd=$(pwd)
 		user=$(whoami)
     
-		cd 
-		cd ./local
-		mkdir bin etc 
-		cd etc
-		mkdir bin
-		cd
+		
 		cp ~/AutoGIT/noSudo/AutoGIT/usr/autogit ~/.local/etc/bin
 		mv ~/AutoGIT/noSudo/AutoGIT ~/.local/etc
     
@@ -36,9 +37,9 @@ case "$response" in [yY][eE][sS]|[yY])
 	;;
 esac
 
-export PATH=$PATH:/home/$user/.local/bin
+export PATH=$PATH:/home/$(whoami)/.local/bin
 source /etc/environment
-export PATH=$PATH:/home/$user/.local/bin
+export PATH=$PATH:/home/$(whoami)/.local/bin
 echo
 
 installed=true
