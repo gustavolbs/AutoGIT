@@ -1,7 +1,7 @@
 # AutoGIT Instructions
 
 ## Documentation
-* [Objective](https://github.com/gustavolbs/AutoGIT/blob/master/README.md#goal)
+* [Goal](https://github.com/gustavolbs/AutoGIT/blob/master/README.md#goal)
 * [Download](https://github.com/gustavolbs/AutoGIT/blob/master/README.md#download)
 * [Installation](https://github.com/gustavolbs/AutoGIT/blob/master/README.md#installation)
   * **NON** [Sudo installation](https://github.com/gustavolbs/AutoGIT/blob/master/README.md#non-sudo-installation)
