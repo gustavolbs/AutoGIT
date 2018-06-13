@@ -1,4 +1,5 @@
 #! /bin/bash
+# Without SUDO
 
 echo
 echo " █████╗ ██╗   ██╗████████╗ ██████╗        ██████╗ ██╗████████╗
@@ -34,5 +35,4 @@ echo
 echo "On next step you'll be asked to enter with your github credentials."
 echo "Next time you run autogit, you don't need to enter the credential again."  
 git push
-
 

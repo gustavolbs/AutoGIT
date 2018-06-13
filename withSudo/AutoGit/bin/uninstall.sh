@@ -1,25 +1,24 @@
 #!/bin/bash
+# With SUDO
 
 confirm() {
-    
     read -r -p "${1:--Are you sure you want to uninstall Auto-GIT? [Yes/No]} " response
-    case "$response" in
-        [yY][eE][sS]|[yY])
+    case "$response" in [yY][eE][sS]|[yY])
         {
             pwd=$(pwd)
             user=$(whoami)
             
-			sudo rm -rf /usr/local/etc/AutoGIT 
-			rm -rf /home/$user/.local/etc/AutoGIT
+			sudo rm -rf /usr/local/bin/autogit 
+			rm -rf ~/.local/etc/AutoGIT
 
         } || {
             echo '\n\033[0;31m(FAIL)\033[0m Uninstall failed'
         }
         show
-                ;;
+		;;
         *)
-            show
-            ;;
+		show
+		;;
     esac
 }
 
