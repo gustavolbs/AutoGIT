@@ -18,8 +18,14 @@ case "$response" in [yY][eE][sS]|[yY])
 		pwd=$(pwd)
 		user=$(whoami)
     
-		cp ~/Downloads/AutoGIT/noSudo/AutoGIT/usr/autogit ~/.local/etc/bin
-		mv ~/Downloads/AutoGIT/noSudo/AutoGIT ~/.local/etc
+		cd 
+		cd ./local
+		mkdir bin etc 
+		cd etc
+		mkdir bin
+		cd
+		cp ~/AutoGIT/noSudo/AutoGIT/usr/autogit ~/.local/etc/bin
+		mv ~/AutoGIT/noSudo/AutoGIT ~/.local/etc
     
 	} || {
 		echo
@@ -30,7 +36,11 @@ case "$response" in [yY][eE][sS]|[yY])
 	;;
 esac
 
+export PATH=$PATH:/home/$user/.local/bin
+source /etc/environment
+export PATH=$PATH:/home/$user/.local/bin
 echo
+
 installed=true
 
 if $installed ; then
