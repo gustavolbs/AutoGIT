@@ -18,16 +18,18 @@ cd .local
 mkdir bin
 mkdir etc
 cd etc
-mkdir /bin
+mkdir bin
 cd
+source /etc/environment
+export PATH=$PATH:/home/$(whoami)/.local/etc/bin
 	echo "- Now, let's configure the execution file..." 
 	{
 		pwd=$(pwd)
 		user=$(whoami)
     
 		
-		cp ~/AutoGIT/noSudo/AutoGIT/usr/autogit ~/.local/etc/bin
-		mv ~/AutoGIT/noSudo/AutoGIT ~/.local/etc
+		cp ~/AutoGIT/noSudo/AutoGit/usr/autogit ~/.local/etc/bin
+		mv ~/AutoGIT/noSudo/AutoGit ~/.local/etc
     
 	} || {
 		echo
@@ -38,9 +40,9 @@ cd
 	;;
 esac
 
-export PATH=$PATH:/home/$(whoami)/.local/bin
+export PATH=$PATH:/home/$(whoami)/.local/etc/bin
 source /etc/environment
-export PATH=$PATH:/home/$(whoami)/.local/bin
+export PATH=$PATH:/home/$(whoami)/.local/etc/bin
 echo
 
 installed=true
