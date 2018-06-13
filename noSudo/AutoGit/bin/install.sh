@@ -14,8 +14,8 @@ esac
 read -r -p "${1:-- Do you want to install AutoGIT? [Yes/No]} " response
 case "$response" in [yY][eE][sS]|[yY])
 cd 
-cd ./local
-mkdir bin etc 
+cd .local
+mkdir .local/bin .local/etc 
 cd etc
 mkdir bin
 cd
