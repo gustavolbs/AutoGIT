@@ -1,16 +1,16 @@
 # AutoGIT Instructions
 
 ## Documentation
-* [Goal](https://github.com/gustavolbs/AutoGIT/blob/master/README.md#goal)
-* [Download](https://github.com/gustavolbs/AutoGIT/blob/master/README.md#download)
-* [Installation](https://github.com/gustavolbs/AutoGIT/blob/master/README.md#installation)
-  * **NON** [Sudo installation](https://github.com/gustavolbs/AutoGIT/blob/master/README.md#non-sudo-installation)
-  * [Sudo installation](https://github.com/gustavolbs/AutoGIT/blob/master/README.md#sudo-installation)
-* [Uninstallation](https://github.com/gustavolbs/AutoGIT/blob/master/README.md#uninstallation)
-  * **NON** [Sudo uninstallation](https://github.com/gustavolbs/AutoGIT/blob/master/README.md#non-sudo-uninstallation)
-  * [Sudo uninstallation](https://github.com/gustavolbs/AutoGIT/blob/master/README.md#sudo-uninstallation)
-* [Using](https://github.com/gustavolbs/AutoGIT/blob/master/README.md#using)
-* [Special Thanks](https://github.com/gustavolbs/AutoGIT/blob/master/README.md#special-thanks)
+* [Goal](https://github.com/gustavolbs/AutoGIT#goal)
+* [Download](https://github.com/gustavolbs/AutoGIT#download)
+* [Installation](https://github.com/gustavolbs/AutoGIT#installation)
+  * **NON** [Sudo installation](https://github.com/gustavolbs/AutoGIT#non-sudo-installation)
+  * [Sudo installation](https://github.com/gustavolbs/AutoGIT#sudo-installation)
+* [Uninstallation](https://github.com/gustavolbs/AutoGIT#uninstallation)
+  * **NON** [Sudo uninstallation](https://github.com/gustavolbs/AutoGIT#non-sudo-uninstallation)
+  * [Sudo uninstallation](https://github.com/gustavolbs/AutoGIT#sudo-uninstallation)
+* [Using](https://github.com/gustavolbs/AutoGIT#using)
+* [Special Thanks](https://github.com/gustavolbs/AutoGIT#special-thanks)
 
 
 ## Goal
