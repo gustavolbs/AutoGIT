@@ -1,3 +1,5 @@
+#!/bin/bash
+
 confirm() {
     
     read -r -p "${1:--Are you sure you want to uninstall Auto-GIT? [Yes/No]} " response
@@ -6,7 +8,9 @@ confirm() {
         {
             pwd=$(pwd)
             user=$(whoami)
-            rm /home/$user/.local/bin/autogit > /dev/null
+            
+			sudo rm -rf /usr/local/etc/AutoGIT 
+
         } || {
             echo '\n\033[0;31m(FAIL)\033[0m Uninstall failed'
         }
@@ -20,7 +24,7 @@ confirm() {
 
 show() {
 	echo
-	echo" █████╗ ██╗   ██╗████████╗ ██████╗        ██████╗ ██╗████████╗
+	echo "█████╗ ██╗   ██╗████████╗ ██████╗        ██████╗ ██╗████████╗
 		 ██╔══██╗██║   ██║╚══██╔══╝██╔═══██╗      ██╔════╝ ██║╚══██╔══╝
 		 ███████║██║   ██║   ██║   ██║   ██║█████╗██║  ███╗██║   ██║   
 		 ██╔══██║██║   ██║   ██║   ██║   ██║╚════╝██║   ██║██║   ██║   
