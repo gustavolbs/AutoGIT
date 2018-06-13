@@ -15,10 +15,10 @@ read -r -p "${1:-- Do you want to install AutoGIT? [Yes/No]} " response
 case "$response" in [yY][eE][sS]|[yY])
 cd 
 cd .local
-mkdir .local/bin 
-mkdir .local/etc 
-cd .local/etc
-mkdir .local/etc/bin
+mkdir bin
+mkdir etc
+cd etc
+mkdir /bin
 cd
 	echo "- Now, let's configure the execution file..." 
 	{
