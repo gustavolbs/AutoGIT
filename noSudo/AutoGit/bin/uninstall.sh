@@ -8,7 +8,7 @@ confirm() {
 			pwd=$(pwd)
 			user=$(whoami)
 			
-			rm -rf ~/.local/etc/bin/autogit 
+			rm -rf ~/.local/bin/autogit 
 			rm -rf ~/.local/etc/AutoGIT
 			
 		} || {
