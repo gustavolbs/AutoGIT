@@ -30,26 +30,26 @@ wget -cO - https://github.com/gustavolbs/AutoGIT/archive/master.zip > AutoGIT.zi
 #### **NON** Sudo installation
    If you do **NOT HAVE** access to the **SUDO**, use the following command
 ```
-cd ~/AutoGIT/noSudo/bin && chmod +x install.sh && ./install.sh 
+cd ~/AutoGIT/noSudo/AutoGIT/bin && chmod +x install.sh && ./install.sh 
 ```
 
 #### Sudo installation
    If you do **HAVE** access to the **SUDO**, use the following command
 ```
-cd ~/AutoGIT/withoSudo/bin && chmod +x install.sh && ./install.sh 
+cd ~/AutoGIT/withSudo/AutoGIT/bin && chmod +x install.sh && ./install.sh 
 ```
 
 ## Uninstallation
 #### **NON** Sudo uninstallation
    If you installed AutoGIT **WITH SUDO**, use the following command to uninstall
 ```
-cd ~/AutoGIT/noSudo/bin && chmod +x uninstall.sh && ./uninstall.sh 
+cd ~/AutoGIT/noSudo/AutoGIT/bin && chmod +x uninstall.sh && ./uninstall.sh 
 ```
 
 #### Sudo uninstallation
    If you installed AutoGIT **WITHOUT SUDO**, use the following command to uninstall
 ```
-cd ~/AutoGIT/withoSudo/bin && chmod +x uninstall.sh && ./uninstall.sh 
+cd ~/AutoGIT/withSudo/AutoGIT/bin && chmod +x uninstall.sh && ./uninstall.sh 
 ```
 
 ## Using
