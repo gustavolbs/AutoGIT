@@ -10,6 +10,7 @@ confirm() {
             user=$(whoami)
             
 			sudo rm -rf /usr/local/etc/AutoGIT 
+			rm -rf /home/$user/.local/etc/AutoGIT
 
         } || {
             echo '\n\033[0;31m(FAIL)\033[0m Uninstall failed'
