@@ -21,14 +21,14 @@ cd etc
 mkdir bin
 cd
 source /etc/environment
-export PATH=$PATH:/home/$(whoami)/.local/etc/bin
+export PATH=$PATH:/home/$(whoami)/.local/bin
 	echo "- Now, let's configure the execution file..." 
 	{
 		pwd=$(pwd)
 		user=$(whoami)
 
-		cp ~/AutoGIT/noSudo/AutoGit/usr/autogit ~/.local/bin
-		mv ~/AutoGIT/noSudo/AutoGit ~/.local/etc
+		cp ~/AutoGIT/usr/autogit ~/.local/bin
+		mv ~/AutoGIT ~/.local/etc
 
 	} || {
 		echo
