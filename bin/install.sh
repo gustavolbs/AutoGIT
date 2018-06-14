@@ -6,11 +6,23 @@ echo
 
 read -r -p "${1:-- Have you installed AutoGIT before? [Yes/No]} " response
 case "$response" in [yY][eE][sS]|[yY])
-        rm -rf ~/.local/bin/autogit 
+        rm -rf ~/.local/bin/atgit 
         rm -rf ~/.local/etc/AutoGIT
         ;;
 esac
-
+case "$response" in [nN][oO]|[nN])
+	
+	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.bashrc
+	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.bash_profile
+	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.zshrc
+	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.profile
+	
+	source ~./basrc
+	source ~./bash_profile
+	source ~./zshrc
+	source ~./profile
+	;;
+esac
 read -r -p "${1:-- Do you want to install AutoGIT? [Yes/No]} " response
 case "$response" in [yY][eE][sS]|[yY])
 cd 
@@ -20,14 +32,12 @@ mkdir etc
 cd etc
 mkdir bin
 cd
-source /etc/environment
-export PATH=$PATH:/home/$(whoami)/.local/bin
-	echo "- Now, let's configure the execution file..." 
+echo "- Now, let's configure the execution file..." 
 	{
 		pwd=$(pwd)
 		user=$(whoami)
 
-		cp ~/AutoGIT/usr/autogit ~/.local/bin
+		cp ~/AutoGIT/usr/atgit ~/.local/bin
 		mv ~/AutoGIT ~/.local/etc
 
 	} || {
@@ -44,7 +54,7 @@ installed=true
 
 if $installed ; then
 
-	echo -e "- Thank's for install Auto-GIT, run 'autogit' on terminal to start\n"
+	echo -e "- Thank's for install Auto-GIT, run 'atgit' on terminal to start\n"
 
 echo " █████╗ ██╗   ██╗████████╗ ██████╗        ██████╗ ██╗████████╗
 ██╔══██╗██║   ██║╚══██╔══╝██╔═══██╗      ██╔════╝ ██║╚══██╔══╝
