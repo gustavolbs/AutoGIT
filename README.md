@@ -11,10 +11,10 @@
 
 
 ## Goal
-   The goal of this program is to simplify the life of git users, avoiding having to enter git commands and avoiding the user having to enter their credentials to perform a _push_, for example.
+   The goal of this project is provide to all git users a program that lets them free of the git commands. We turned the old "cheat sheet" into an interface where users don't need to type in every single command to perform whatever they want with git. Users also won't need to "log-in" after the _push_ command, do it once and forget about it.
    
 ## Download
-To download the AutoGit, open the terminal and paste one of theses codes below and **NEVER** move any file of AutoGIT.
+To download AutoGit, open the terminal and paste one of these codes below and **NEVER** move any file from/to AutoGIT.
 ```
 cd && git clone https://github.com/gustavolbs/AutoGIT.git
 ```
@@ -24,28 +24,27 @@ cd && wget -cO - https://github.com/gustavolbs/AutoGIT/archive/master.zip > Auto
 ```
 
 ## Installation
-To install the AutoGIT, use the following commands and **NEVER** move any file of AutoGIT.
+To install AutoGIT, use the following commands and **NEVER** move any file from/to AutoGIT.
 ```
 cd AutoGIT/bin && ./install.sh 
 ```
 
 ## Uninstallation
-To uninstall the AutoGIT, use the following commands and **NEVER** move any file of AutoGIT.
+To uninstall AutoGIT, use the following commands and **NEVER** move any file from/to AutoGIT.
 ```
 cd ~/.local/etc/AutoGIT/bin && ./uninstall.sh 
 
 ```
 
 ## Update
-To update the AutoGIT to the lastest version, use the following commands and **NEVER** move any file of AutoGIT.
+To update AutoGIT to the lastest version, use the following commands and **NEVER** move any file from/to AutoGIT.
 ```
 cd ~/.local/etc/AutoGIT/bin && ./update.sh
 
 ```
 
-
 ## Using
-   To use autogit, make sure you are in a directory with git initialized, just run the autogit command on a terminal and then perform the actions you want to send the files to the repository linked to your directory.
+   To use AutoGit, make sure you are in a directory with git initialized, just run the ```atgit``` command on the terminal and then perform the actions you want to.
 
 MADE BY @gustavolbs
 
@@ -54,5 +53,5 @@ MADE BY @gustavolbs
 - @ramonssarmento who helped me construct the project.
 - @hericlesme who helped me build the installation and uninstallation.
 - @ArthurFerrao who helped me with the researchs.
-- @gabrieeeuu who helped me with the translate.
+- @gabrieeeuu who helped me with the translation.
 - And thanks to everyone that tested the project and gaved one feedback.
