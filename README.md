@@ -5,6 +5,7 @@
 * [Download](https://github.com/gustavolbs/AutoGIT#download)
 * [Installation](https://github.com/gustavolbs/AutoGIT#installation)
 * [Uninstallation](https://github.com/gustavolbs/AutoGIT#uninstallation)
+* [Update](https://github.com/gusatvolbs/AutoGIT#update)
 * [Using](https://github.com/gustavolbs/AutoGIT#using)
 * [Special Thanks](https://github.com/gustavolbs/AutoGIT#special-thanks)
 
