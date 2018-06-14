@@ -13,14 +13,13 @@ esac
 case "$response" in [nN][oO]|[nN])
 	
 	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.bashrc
-	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.bash_profile
-	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.zshrc
-	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.profile
-	
 	source ~/.bashrc
-	source ~/.bash_profile
-	source ~/.zshrc
+	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.profile
 	source ~/.profile
+	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.bash_profile
+	source ~/.bash_profile
+	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.zshrc
+	source ~/.zshrc
 	;;
 esac
 read -r -p "${1:-- Do you want to install AutoGIT? [Yes/No]} " response
