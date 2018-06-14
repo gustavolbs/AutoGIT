@@ -19,13 +19,13 @@ cd && git clone https://github.com/gustavolbs/AutoGIT.git
 ```
 **or**
 ```
-cd && wget -cO - https://github.com/gustavolbs/AutoGIT/archive/master.zip > AutoGIT.zip && unzip AutoGIT.zip && mv AutoGIT-master AutoGIT
+cd && wget -cO - https://github.com/gustavolbs/AutoGIT/archive/master.zip > AutoGIT.zip && unzip AutoGIT.zip && mv AutoGIT-master AutoGIT && rm AutoGIT.zip
 ```
 
 ## Installation
 To install the AutoGIT, use the following commands and **NEVER** move any file of AutoGIT.
 ```
-cd AutoGIT/noSudo/AutoGit/bin && ./install.sh 
+cd AutoGIT/bin && ./install.sh 
 ```
 
 ## Uninstallation
