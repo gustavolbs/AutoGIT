@@ -31,8 +31,17 @@ cd AutoGIT/bin && ./install.sh
 ## Uninstallation
 To uninstall the AutoGIT, use the following commands and **NEVER** move any file of AutoGIT.
 ```
-cd ~/.local/etc/AutoGit/bin && ./uninstall.sh 
+cd ~/.local/etc/AutoGIT/bin && ./uninstall.sh 
+
 ```
+
+## Update
+To update the AutoGIT to the lastest version, use the following commands and **NEVER** move any file of AutoGIT.
+```
+cd ~/.local/etc/AutoGIT/bin && ./update.sh
+
+```
+
 
 ## Using
    To use autogit, make sure you are in a directory with git initialized, just run the autogit command on a terminal and then perform the actions you want to send the files to the repository linked to your directory.
@@ -44,4 +53,5 @@ MADE BY @gustavolbs
 - @ramonssarmento who helped me construct the project.
 - @hericlesme who helped me build the installation and uninstallation.
 - @ArthurFerrao who helped me with the researchs.
+- @gabrieeeuu who helped me with the translate.
 - And thanks to everyone that tested the project and gaved one feedback.

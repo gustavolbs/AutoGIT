@@ -6,19 +6,23 @@ echo
 
 read -r -p "${1:-- Have you installed AutoGIT before? [Yes/No]} " response
 case "$response" in [yY][eE][sS]|[yY])
-        rm -rf ~/.local/bin/atgit 
-        rm -rf ~/.local/etc/AutoGIT
+        rm -fr ~/.local/bin/atgit 
+        rm -fr ~/.local/etc/AutoGIT
         ;;
 esac
 case "$response" in [nN][oO]|[nN])
 	
 	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.bashrc
+	echo "alias atgit='/home/$(whoami)/.local/bin/atgit'" >> ~/.bashrc
 	source ~/.bashrc
 	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.profile
+	echo "alias atgit='/home/$(whoami)/.local/bin/atgit'" >> ~/.profile
 	source ~/.profile
 	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.bash_profile
+	echo "alias atgit='/home/$(whoami)/.local/bin/atgit'" >> ~/.bash_profile
 	source ~/.bash_profile
 	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.zshrc
+	echo "alias atgit='/home/$(whoami)/.local/bin/atgit" >> ~/.zshrc
 	source ~/.zshrc
 	;;
 esac

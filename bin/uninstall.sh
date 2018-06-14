@@ -8,8 +8,8 @@ confirm() {
 			pwd=$(pwd)
 			user=$(whoami)
 			
-			rm -rf ~/.local/bin/atgit 
-			rm -rf ~/.local/etc/AutoGIT
+			rm -fr ~/.local/bin/atgit 
+			rm -fr ~/.local/etc/AutoGIT
 			
 		} || {
 			echo '\n\033[0;31m(FAIL)\033[0m Uninstall failed'
