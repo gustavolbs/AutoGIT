@@ -17,10 +17,10 @@ case "$response" in [nN][oO]|[nN])
 	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.zshrc
 	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.profile
 	
-	source ~./basrc
-	source ~./bash_profile
-	source ~./zshrc
-	source ~./profile
+	source ~/.bashrc
+	source ~/.bash_profile
+	source ~/.zshrc
+	source ~/.profile
 	;;
 esac
 read -r -p "${1:-- Do you want to install AutoGIT? [Yes/No]} " response
