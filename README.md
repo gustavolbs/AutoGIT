@@ -3,9 +3,9 @@
 ## Documentation
 * [Goal](https://github.com/gustavolbs/AutoGIT#goal)
 * [Download](https://github.com/gustavolbs/AutoGIT#download)
-* [Installation](https://github.com/gustavolbs/AutoGIT#installation)
-* [Uninstallation](https://github.com/gustavolbs/AutoGIT#uninstallation)
-* [Update](https://github.com/gusatvolbs/AutoGIT#update)
+* [Installing](https://github.com/gustavolbs/AutoGIT#installing)
+* [Uninstalling](https://github.com/gustavolbs/AutoGIT#uninstalling)
+* [Updating](https://github.com/gusatvolbs/AutoGIT#updating)
 * [Using](https://github.com/gustavolbs/AutoGIT#using)
 * [Special Thanks](https://github.com/gustavolbs/AutoGIT#special-thanks)
 
@@ -23,23 +23,23 @@ cd && git clone https://github.com/gustavolbs/AutoGIT.git
 cd && wget -cO - https://github.com/gustavolbs/AutoGIT/archive/master.zip > AutoGIT.zip && unzip AutoGIT.zip && mv AutoGIT-master AutoGIT && rm AutoGIT.zip
 ```
 
-## Installation
+## Installing
 To install AutoGIT, use the following commands and **NEVER** move any file from/to AutoGIT.
 ```
-cd AutoGIT/bin && ./install.sh 
+cd && ./AutoGIT/bin/install.sh
 ```
 
-## Uninstallation
+## Uninstalling
 To uninstall AutoGIT, use the following commands and **NEVER** move any file from/to AutoGIT.
 ```
-cd ~/.local/etc/AutoGIT/bin && ./uninstall.sh 
+cd && ./.local/etc/AutoGIT/bin/uninstall.sh 
 
 ```
 
-## Update
+## Updating
 To update AutoGIT to the lastest version, use the following commands and **NEVER** move any file from/to AutoGIT.
 ```
-cd ~/.local/etc/AutoGIT/bin && ./update.sh
+cd && ./.local/etc/AutoGIT/bin/update.sh
 
 ```
 
@@ -54,4 +54,5 @@ MADE BY @gustavolbs
 - @hericlesme who helped me build the installation and uninstallation.
 - @ArthurFerrao who helped me with the researchs.
 - @gabrieeeuu who helped me with the translation.
+- @carlosbio17 who tested and supported the project.
 - And thanks to everyone that tested the project and gaved one feedback.
