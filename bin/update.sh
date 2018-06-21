@@ -1,9 +1,9 @@
 #! /bin/bash
 
-cd && cd ~/Documents && git clone https://github.com/gustavolbs/AutoGIT.git
+cd && cd ~/Downloads && git clone https://github.com/gustavolbs/AutoGIT.git
 
 rm -rf ~/.local/bin/atgit
 rm -rf ~/.local/etc/AutoGIT
 
-cp ~/Documents/AutoGIT/usr/atgit ~/.local/bin
-mv ~/Documents/AutoGIT ~/.local/etc
+cp ~/Downloads/AutoGIT/usr/atgit ~/.local/bin
+mv ~/Downloads/AutoGIT ~/.local/etc
