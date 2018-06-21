@@ -31,6 +31,7 @@ git commit -m "$message"
 
 # This will ask you your username and password just one time. After then, it will send the files
 # to the master branch of your repositorie of git without ask your credentials.
-echo   
+echo 
 git push
+
 

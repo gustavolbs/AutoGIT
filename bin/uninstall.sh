@@ -8,6 +8,7 @@ confirm() {
 			pwd=$(pwd)
 			user=$(whoami)
 			
+			cd
 			rm -fr ~/.local/bin/atgit 
 			rm -fr ~/.local/etc/AutoGIT
 			
