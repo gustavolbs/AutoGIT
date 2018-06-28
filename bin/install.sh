@@ -6,21 +6,19 @@ echo
 
 read -r -p "${1:-- Have you installed AutoGIT before? [Yes/No]} " response
 case "$response" in [yY][eE][sS]|[yY])
-		rm -fr ~/.local/bin/atgit 
-        rm -fr ~/.local/etc/AutoGIT
+		rm -rf ~/.local/bin/atgit 
+        rm -rf ~/.local/etc/AutoGIT
         ;;
 esac
 case "$response" in [nN][oO]|[nN])
 	
 	echo "# These Comands was added by AutoGIT" >> ~/.bashrc
-	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.bashrc
 	echo "alias atgit='/home/$(whoami)/.local/bin/atgit'" >> ~/.bashrc
 	echo "# Finished the commands of AutoGIT" >> ~/.bashrc
 	echo "" >> ~/.bashrc 
 	source ~/.bashrc
 	
 	echo "# These Comands was added by AutoGIT" >> ~/.zshrc
-	echo "export PATH=$PATH:/home/$(whoami)/.local/bin" >> ~/.zshrc
 	echo "alias atgit='/home/$(whoami)/.local/bin/atgit'" >> ~/.zshrc
 	echo "# Finished the commands of AutoGIT" >> ~/.zshrc
 	echo "" >> ~/.zshrc
