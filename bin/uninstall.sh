@@ -1,5 +1,4 @@
 #!/bin/bash
-# Without SUDO
 
 confirm() {
 	read -r -p "${1:--Are you sure you want to uninstall Auto-GIT? [Yes/No]} " response

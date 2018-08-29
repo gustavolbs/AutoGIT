@@ -1,5 +1,4 @@
 #!/bin/bash
-# Without SUDO
 
 echo '- Welcome to the Auto-GIT installation wizard'
 echo
