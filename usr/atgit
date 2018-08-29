@@ -3,19 +3,17 @@
 
 case $1 in
    "-u") ~/.local/etc/AutoGIT/bin/update.sh
+   		 exit 0
          ;;
-   "-a") echo "Me ajuda."
+   "-h") echo "To use AutoGIT, just run 'atgit'. You can use the commands:"
+		 echo "'atgit -h' to get help on how to use AutoGIT." 
+		 echo "'atgit -u' to update the AutoGIT to the most recent version." 
+		 echo "'atgit -v' to see the AutoGIT version that you're using." 
+   		 exit 0
          ;;
    "-v") echo "Versão IRINEU."
+		 exit 0
          ;;
    *) ~/.local/etc/AutoGIT/usr/atgit.sh
       ;;
 esac
-
-
-help() {
-	echo "To use AutoGIT, just run 'atgit'. You can use the commands:"
-	echo "'atgit -a' to get help on how to use AutoGIT." 
-	echo "'atgit -u' to update the AutoGIT to the most recent version." 
-	echo "'atgit -v' to see the AutoGIT version that you're using." 
-}
