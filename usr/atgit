@@ -11,7 +11,7 @@ case $1 in
 		 echo "'atgit -v' to see the AutoGIT version that you're using." 
    		 exit 0
          ;;
-   "-v") echo "Versão IRINEU."
+   "-v") echo "atgit 2.0"
 		 exit 0
          ;;
    *) ~/.local/etc/AutoGIT/usr/atgit.sh
