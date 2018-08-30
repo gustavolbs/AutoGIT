@@ -39,8 +39,7 @@ cd && ./.local/etc/AutoGIT/bin/uninstall.sh
 ## Updating
 To update AutoGIT to the lastest version, use the following commands and **NEVER** move any file from/to AutoGIT.
 ```
-cd && ./.local/etc/AutoGIT/bin/update.sh
-
+atgit -u
 ```
 
 ## Using
