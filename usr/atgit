@@ -1,13 +1,16 @@
 #! /bin/bash
-# Without SUDO
 
 case $1 in
    "-u") ~/.local/etc/AutoGIT/bin/update.sh
    		 exit 0
          ;;
+   "-r") ~/.local/etc/AutoGIT/bin/uninstall.sh
+   		 exit 0
+         ;;
    "-h") echo "To use AutoGIT, just run 'atgit'. You can use the commands:"
 		 echo "'atgit -h' to get help on how to use AutoGIT." 
 		 echo "'atgit -u' to update the AutoGIT to the most recent version." 
+		 echo "'atgit -r' to uninstall AutoGIT." 
 		 echo "'atgit -v' to see the AutoGIT version that you're using." 
    		 exit 0
          ;;

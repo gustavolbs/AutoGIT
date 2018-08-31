@@ -32,8 +32,7 @@ cd && ./AutoGIT/bin/install.sh
 ## Uninstalling
 To uninstall AutoGIT, use the following commands and **NEVER** move any file from/to AutoGIT.
 ```
-cd && ./.local/etc/AutoGIT/bin/uninstall.sh 
-
+atgit -r 
 ```
 
 ## Updating
