@@ -54,3 +54,5 @@ MADE BY @gustavolbs
 - @gabrieeeuu who helped me with the translation.
 - @carlosbio17 who tested and supported the project.
 - And thanks to everyone that tested the project and gaved one feedback.
+
+# Enjoy it
