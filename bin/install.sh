@@ -30,7 +30,7 @@ echo "- Now, let's configure the execution file..."
 cp ~/AutoGIT/usr/atgit ~/.local/bin
 mv ~/AutoGIT ~/.local/etc
 
-echo -e "- Thank's for install Auto-GIT, run 'atgit' on terminal to start\n"
+echo -e "- Thank's for installing Auto-GIT, run 'atgit' on terminal to start\n"
 
 echo " █████╗ ██╗   ██╗████████╗ ██████╗        ██████╗ ██╗████████╗
 ██╔══██╗██║   ██║╚══██╔══╝██╔═══██╗      ██╔════╝ ██║╚══██╔══╝
