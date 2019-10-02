@@ -56,3 +56,4 @@ MADE BY @gustavolbs
 - And thanks to everyone that tested the project and gaved one feedback.
 
 # Enjoy it
+    Follow me on instagram: @gugabispo99
